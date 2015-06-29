@@ -30,6 +30,7 @@ RUN mv /etc/dd-agent/datadog.conf.example /etc/dd-agent/datadog.conf \
 
 # Add Docker check
 COPY conf.d/docker.yaml /etc/dd-agent/conf.d/docker.yaml
+COPY conf.d/nginx.yaml /etc/dd-agent/conf.d/nginx.yaml
 
 COPY entrypoint.sh /entrypoint.sh
 

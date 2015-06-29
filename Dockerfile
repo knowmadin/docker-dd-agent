@@ -32,6 +32,7 @@ RUN mv /etc/dd-agent/datadog.conf.example /etc/dd-agent/datadog.conf \
 COPY conf.d/docker.yaml /etc/dd-agent/conf.d/docker.yaml
 COPY conf.d/nginx.yaml /etc/dd-agent/conf.d/nginx.yaml
 COPY conf.d/mysql.yaml /etc/dd-agent/conf.d/mysql.yaml
+COPY conf.d/redisdb.yaml /etc/dd-agent/conf.d/redisdb.yaml
 
 COPY entrypoint.sh /entrypoint.sh
 

@@ -1,4 +1,4 @@
 init_config:
 
 instances:
-  - nginx_status_url: https://nginx/nginx_status/
+  - nginx_status_url: https://www.knowmad.in/nginx_status
